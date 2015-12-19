@@ -1,0 +1,15 @@
+bst bst::costs(bst *root)
+{
+if (root)
+	{
+	cout << root->value;
+	if (root->leftSubtree != 0)
+		{
+		costs(root->leftSubtree)
+		}
+	if ( pv->rightSubtree != 0)
+		{
+		costs(root->rightSubtree)
+		}
+	}
+}
